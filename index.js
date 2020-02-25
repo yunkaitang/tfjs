@@ -2,15 +2,13 @@ CLASSES = {
   0: 'daisy',
   1: 'dandelion',
   2: 'roses',
-  3: 'sunflowers',
-  4: 'tulip',
 };
 
 const MODEL_PATH =
-    './model.json';
+    './tfjs/model.json';
 
 const IMAGE_SIZE = 192;
-const TOPK_PREDICTIONS = 5;
+const TOPK_PREDICTIONS = 3;
 
 let my_model;
 const demo = async () => {
